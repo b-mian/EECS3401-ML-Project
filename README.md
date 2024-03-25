@@ -1,5 +1,7 @@
 # EECS3401-ML-Project
 
+LINK TO VIDEO ON GOOGLE DRIVE: https://drive.google.com/file/d/1KdvcZU38rPYf5HZHWB31YeufltftJCz2/view?usp=sharing
+
 This dataset was sourced from the UC Irvine Machine Learning Repository. The data is recent (December 2021) and was collected by researchers at the Instituto Politécnico de Portalegre in Portugal for a study on student academic performance. The original purpose of open-sourcing the dataset is to use “machine learning techniques to identify students at risk at an early stage of their academic path, so that strategies to support them can be put into place” (Martins, 2021). 
 
 From the original 4424 instances and 35 features in the dataset, a few modifications were made. As mentioned earlier, several columns were dropped from the set. From the target (output) set, all rows with the value “Enrolled” were removed as to enforce binary classification machine learning models. The reason for this decision was due to the much lower accuracy and reliability of the models when trying to predict a student as still enrolled at the end of their studies. By removing this option, the predictive validity of the models was greatly improved, as will be demonstrated.
