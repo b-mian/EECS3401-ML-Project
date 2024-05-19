@@ -1,6 +1,6 @@
 # EECS3401-ML-Project
 
-Machine Learning Project Report
+Machine Learning Project Report -
 Predicting Students’ Academic Success
 
 Date — March 24, 2024
